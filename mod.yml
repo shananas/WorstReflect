@@ -1,0 +1,14 @@
+title: Guard but it costs MP
+originalAuthor: Shananas
+assets:
+
+#limit
+- method: binarc
+  name: 00battle.bin
+  source:
+  - name: atkp
+    method: listpatch
+    type: List
+    source:
+    - name: AtkpList.yml
+      type: atkp
